@@ -6,7 +6,7 @@ from warnings import filterwarnings
 filterwarnings('ignore')
 
 df= pd.read_csv('C:\DataSet2\Traininig.csv')
-df=df.drop(labels=['rn'], axis=1);
+df=df.drop(labels=['rn'], axis=1)
 #print(df.head())
 #print(df.shape)
 y=df[['activity']]
